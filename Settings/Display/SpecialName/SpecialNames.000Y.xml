@@ -1,0 +1,69 @@
+﻿<SpecialNames><List>
+	<SpecialItem Name="Item_HomeFood">
+		<Item_TirgerMeat>
+			<Name Name="烤虎肉" Desc=""/>
+			<Name Name="香辣虎肉" Desc=""/>
+			<Name Name="脆皮虎肉" Desc=""/>
+			<Name Name="酒酿虎肉" Desc=""/>
+			<Name Name="蜜汁虎肉" Desc=""/>
+		</Item_TirgerMeat>
+		<Item_STurtleEgg>
+			<li Name="龟蛋布丁" Desc=""/>
+			<li Name="龟蛋羹" Desc=""/>
+			<li Name="酸辣龟蛋汤" Desc=""/>
+			<li Name="韭菜煎龟蛋" Desc=""/>
+			<li Name="生龟蛋拌饭" Desc=""/>
+			<li Name="龟蛋炒饭" Desc=""/>
+			<li Name="水煮龟蛋" Desc=""/>
+			<li Name="毛龟蛋" Desc=""/>
+		</Item_STurtleEgg>
+		<Item_SSnakeEgg>
+			<li Name="蛇蛋布丁" Desc=""/>
+			<li Name="蛇蛋羹" Desc=""/>
+			<li Name="酸辣蛇蛋汤" Desc=""/>
+			<li Name="韭菜煎蛇蛋" Desc=""/>
+			<li Name="生蛇蛋拌饭" Desc=""/>
+			<li Name="蛇蛋炒饭" Desc=""/>
+			<li Name="水煮蛇蛋" Desc=""/>
+			<li Name="毛蛇蛋" Desc=""/>
+		</Item_SSnakeEgg>
+	</SpecialItem>
+	<SpecialItem Name="Item_DeliciousFood">
+		<Item_TirgerMeat>
+			<Name Name="水煮虎肉" Desc=""/>
+			<Name Name="红焖虎肉" Desc=""/>
+			<Name Name="清炒虎肉" Desc=""/>
+			<Name Name="虎肉烩饭" Desc="虎炒饭，后劲大"/>
+			<Name Name="碳烤虎肉" Desc="有点像鸡肉味，嘎嘣脆"/>
+		</Item_TirgerMeat>
+		<Item_STurtleEgg>
+			<li Name="五香卤龟蛋" Desc=""/>
+			<li Name="秘制咸龟蛋" Desc=""/>
+			<li Name="果木烤龟蛋" Desc=""/>
+			<li Name="香煎龟蛋" Desc=""/>
+			<li Name="炙烤龟蛋" Desc=""/>
+			<li Name="虎皮龟蛋" Desc=""/>
+		</Item_STurtleEgg>
+		<Item_SSnakeEgg>
+			<li Name="五香卤蛇蛋" Desc=""/>
+			<li Name="秘制咸蛇蛋" Desc=""/>
+			<li Name="果木烤蛇蛋" Desc=""/>
+			<li Name="香煎蛇蛋" Desc=""/>
+			<li Name="炙烤蛇蛋" Desc=""/>
+			<li Name="虎皮蛇蛋" Desc=""/>
+		</Item_SSnakeEgg>
+	</SpecialItem>
+	<SpecialItem Name="Item_DelicacyFood">
+		<Item_TirgerMeat>
+			<Name Name="生吃虎肉" Desc="感觉人生已经达到了高潮，感觉人生已经到达了巅峰"/>
+		</Item_TirgerMeat>
+		<Item_STurtleEgg>
+			<li Name="五色烩蛋" Desc="将食材多次加水水煮后成型切片，撒上五色灵果研磨的粉末，以特殊手法翻炒。味道甘甜，适口不腻。"/>
+			<li Name="龙息蛋" Desc=" 以温度极高的梧桐木灰焖制食材七个时辰，不加外物，让蛋本身的口感发挥到极致，并且有了些许果木清香和火灵力的爆炸感令人回味无穷。"/>
+		</Item_STurtleEgg>
+		<Item_SSnakeEgg>
+			<li Name="五色烩蛋" Desc="将食材多次加水水煮后成型切片，撒上五色灵果研磨的粉末，以特殊手法翻炒。味道甘甜，适口不腻。"/>
+			<li Name="龙息蛋" Desc=" 以温度极高的梧桐木灰焖制食材七个时辰，不加外物，让蛋本身的口感发挥到极致，并且有了些许果木清香和火灵力的爆炸感令人回味无穷。"/>
+		</Item_SSnakeEgg>
+	</SpecialItem>
+</List></SpecialNames>

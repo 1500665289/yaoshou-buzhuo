@@ -1,0 +1,59 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_ZombieBlood" Parent="DrugBase">
+	<Tags>
+	</Tags>
+	<ThingName>僵尸血</ThingName>
+	<MaxStack>200</MaxStack>
+	<TexPath>Spr\object\object_PINGdanyao04.png</TexPath>	
+	<Desc>僵尸的血液，含有凶恶的怨气，有剧毒。</Desc>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Rate>7</Rate>
+	<Beauty>5</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<Color>FD6A6AE6</Color>
+	<Item Lable="Drug">
+		<FabaoSuffix>液,水,雾,烟,霭</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<Food>
+			<EatDirectable>0</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>50</Water>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+			<Modifier>Modifier_Zombie</Modifier>
+		</Food>	
+		<BeMaterial>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>4</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>5</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>10</Value>         
+		<Radius>3</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>4</Accommodate>
+	</Ling>
+	<Heat>
+		<Value>20</Value>
+		<Radius>5</Radius>
+		<RoomValue>450</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+</List></ThingDefs>

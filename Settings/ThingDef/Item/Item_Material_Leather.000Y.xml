@@ -1,0 +1,91 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_TirgerLeather" Parent="LeatherBase">
+	
+	
+	<ThingName>虎皮</ThingName>
+	<TexPath>Spr\object\object_ApieceOfFur.png</TexPath>
+	<Desc>一块虎皮，结实耐用。</Desc>
+	<MaxStack>100</MaxStack>
+	<Beauty>-2</Beauty>
+	<Rate>3</Rate>	
+	<Color>8D8570FF</Color>
+	<Flammability>
+		<Flammability>0.4</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<Item Lable="Leather">
+		 
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMaterial>
+			<RateWhenBeMain>5</RateWhenBeMain>
+			<ClothesColorID>7</ClothesColorID>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<NamePrefix>虎皮</NamePrefix>
+			
+			<LingShieldWhenBeMain>0</LingShieldWhenBeMain>
+			
+			<TemperatureMaxAddWhenBeMain>-8</TemperatureMaxAddWhenBeMain>
+			<TemperatureMinAddWhenBeMain>-10</TemperatureMinAddWhenBeMain>
+			
+			<ColorWhenBeMain>8D8570FF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>6</MaxHitPointsPerNum>
+			<LingNumberRate>0.3</LingNumberRate>
+			
+			<FlammabilityWhenBeMain>0.4</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>2</BeautyWhenBeMain>
+			
+			<WorktoMakeRate>1</WorktoMakeRate>
+			<WorktoBuildRate>1</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_DragonScale1" Parent="BossDropItemBase">
+		<ThingName>蛟龙鳞</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexScale>1.6</TexScale>
+		<TexPath>res\Sprs\object\object_linpian01</TexPath>
+		<Desc>蛟龙身上的鳞片，坚不可摧。</Desc>
+		<MaxStack>99</MaxStack>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Rate>9</Rate>
+		<Beauty>75</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Bone">
+			<FabaoSuffix>鳞</FabaoSuffix>
+			<PhysicalLables>
+				<li>GreatThing_Attack</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Equip>
+				<ArmorLingShield>0.3</ArmorLingShield>
+				<TemperatureMaxAdd>100</TemperatureMaxAdd>
+				<TemperatureMinAdd>-30</TemperatureMinAdd>
+			</Equip> 	
+	
+		</Item>
+		<Ling>
+			<AddionLing>35</AddionLing>
+			<AddionRadius>4</AddionRadius>
+			<AddionFailing>0.95</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+			
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>10</Value>         
+			<Radius>4</Radius>
+			<Failing>0.75</Failing>
+			<FailRadius>0</FailRadius>
+		</Element>
+	</ThingDef>
+	
+		
+</List></ThingDefs>

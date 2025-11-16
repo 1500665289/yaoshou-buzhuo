@@ -1,0 +1,61 @@
+﻿<ThingDefs><List>
+
+<ThingDef Type="Item" Name="Item_ShiwoodBlock" Parent="WoodBlockBase">
+	<ThingName>尸血木料</ThingName>
+	<TexPath>Spr\object\object_ShiWoodBlock.png</TexPath>
+	<Desc>尸血木制成的木料，可以更有效地用于制作。</Desc>
+	<Beauty>10</Beauty>
+	<Rate>7</Rate>
+	<Item>
+		<PhysicalLables>
+			<li>Light1</li>
+			<li>Smooth2</li>
+			<li>Hard2</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<FuelMultiplier>2</FuelMultiplier>
+		<BeMade>
+			<WorkToMake>60</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_Shiwood" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>尸血木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_wood2</StuffTexPath>
+			<RateWhenBeMain>7</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2</WorkSpeedCoefficientWhenBeMain>
+		
+			<BurningPointWhenBeMain>500</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>20</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>6</ElementPowerWhenBeMain>
+			<PracticeEffectivenessWhenBeMain>1</PracticeEffectivenessWhenBeMain>
+			
+			<WorktoMakeRate>1.4</WorktoMakeRate>
+			<WorktoBuildRate>1.4</WorktoBuildRate>
+			
+			<ColorWhenBeMain>A33428FF</ColorWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>34</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+</ThingDef>
+</List></ThingDefs>

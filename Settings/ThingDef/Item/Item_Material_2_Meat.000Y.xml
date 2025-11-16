@@ -1,0 +1,225 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_SSnakeEgg" Parent="MeatBase">
+	<TexPath>res\Sprs\object\object_sheluan01</TexPath>
+	<ThingName>蛇妖蛋</ThingName>
+	<Desc>一颗蛇蛋。</Desc>
+	<Rate>6</Rate>	
+	<Tags>
+		<Tag Name="Food" Level="2"/>
+		<Tag Name="DiscipleFood" Level="2"/>
+	</Tags>
+	<MaxStack>100</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	
+	<EggCondition>
+		<TempMin>18</TempMin>
+		<TempMax>23</TempMax>
+		<LingMin>0</LingMin>
+		<LingMax>999</LingMax>
+		<LightMin>0</LightMin>
+		<LightMax>999</LightMax>
+		<ElementKind>None</ElementKind>
+	</EggCondition>
+	
+	<Item>
+		<FabaoSuffix>蛋,珠,球,卵</FabaoSuffix>
+		<BeMaterial>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>100</Nutrition>
+		</Food>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_STurtleEgg" Parent="MeatBase">
+	<TexPath>res\Sprs\object\object_guidan01</TexPath>
+	<ThingName>龟妖蛋</ThingName>
+	<Desc>一颗龟蛋。</Desc>
+	<Rate>6</Rate>	
+	<Tags>
+		<Tag Name="Food" Level="2"/>
+		<Tag Name="DiscipleFood" Level="2"/>
+	</Tags>
+	<MaxStack>100</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	<EggCondition>
+		<TempMin>20</TempMin>
+		<TempMax>32</TempMax>
+		<LingMin>0</LingMin>
+		<LingMax>999</LingMax>
+		<LightMin>0</LightMin>
+		<LightMax>999</LightMax>
+		<ElementKind>None</ElementKind>
+	</EggCondition>
+	
+	<Item>
+		<FabaoSuffix>蛋,珠,球,卵</FabaoSuffix>
+		<BeMaterial>
+			<RateWhenBeMain>6</RateWhenBeMain>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>100</Nutrition>
+		</Food>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_JLongEgg" Parent="MeatBase">
+	<TexPath>res\Sprs\object\object_jiaolongdan01</TexPath>
+	<ThingName>蛟的卵</ThingName>
+	<Tags>
+		<Tag Name="Food" Level="-20"/>
+		<Tag Name="DiscipleFood" Level="-20"/>
+	</Tags>	
+	<Desc>还未孵化的蛟卵，其中明显有生命孕育的迹象。</Desc>
+	<Rate>9</Rate>	
+	<MaxStack>10</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<EggCondition>
+		<TempMin>18</TempMin>
+		<TempMax>23</TempMax>
+		<LingMin>0</LingMin>
+		<LingMax>999</LingMax>
+		<LightMin>0</LightMin>
+		<LightMax>999</LightMax>
+		<ElementKind>None</ElementKind>
+	</EggCondition>
+	<Item Lable="Other">
+		<FabaoSuffix>蛋,珠,球,卵</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>150</Nutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_CFengEgg" Parent="MeatBase">
+	<TexPath>res\Sprs\object\object_fenghuangdan01</TexPath>
+	<ThingName>雏凤的卵</ThingName>
+	<Tags>
+		<Tag Name="Food" Level="-20"/>
+		<Tag Name="DiscipleFood" Level="-20"/>
+	</Tags>	
+	<Desc>还未孵化的雏凤卵，其中明显有生命孕育的迹象。</Desc>
+	<Rate>9</Rate>	
+	<MaxStack>10</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	<EggCondition>
+		<TempMin>37</TempMin>
+		<TempMax>38</TempMax>
+		<LingMin>0</LingMin>
+		<LingMax>999</LingMax>
+		<LightMin>0</LightMin>
+		<LightMax>999</LightMax>
+		<ElementKind>None</ElementKind>
+	</EggCondition>
+	
+	<Item Lable="Other">
+		<FabaoSuffix>蛋,珠,球,卵</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>2</CostMultiplier>
+		</BeMaterial>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>150</Nutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JiaoMeat" Parent="SimpleFoodBase">
+	<ThingName>蛟肉</ThingName>
+	<TexPath>res\Sprs\object\object_jiaolongxuerou01</TexPath>
+	<Desc>蛟即蛇蛟，是古代神话中的神兽，拥有龙族血脉的水兽（包括鱼蛇等水族）在朝龙进化时的其中一个物种，只要再渡过难劫就可以化为真龙，拥有强大的力量。其肉质令人神往。</Desc>
+	<Beauty>10</Beauty>
+	<Rate>9</Rate>	
+	<MaxStack>100</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		 <Food>
+			<EatDirectable>0</EatDirectable>
+			<Nutrition>100</Nutrition>
+			<PracticeNutrition>1000</PracticeNutrition>
+		 </Food>
+		 <BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<WorktoMakeRate>1</WorktoMakeRate>
+			<WorktoBuildRate>1</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_FengMeat" Parent="SimpleFoodBase">
+	<ThingName>雏凤肉</ThingName>
+	<TexPath>res\Sprs\object\object_xionghuangxuerou01</TexPath>
+	<Desc>传说中的百鸟之王，头顶华冠，羽披百眼，形似今日孔雀；雄的称为“凤”，雌的称为“凰”，拥有凤凰血脉的飞禽中的一个物种，拥有强大的力量。其肉质令人神往。</Desc>
+	<Beauty>10</Beauty>
+	<Rate>9</Rate>	
+	<MaxStack>100</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		 <Food>
+			<EatDirectable>0</EatDirectable>
+			<Nutrition>100</Nutrition>
+			<PracticeNutrition>1000</PracticeNutrition>
+		 </Food>
+		 <BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<WorktoMakeRate>1</WorktoMakeRate>
+			<WorktoBuildRate>1</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_TirgerMeat" Parent="MeatBase">
+	<ThingName>虎肉</ThingName>
+	<TexPath>res\Sprs\object\object_raw002</TexPath>
+	<Desc>虎肉。</Desc>
+	<Beauty>-2</Beauty>
+	<Rate>3</Rate>	
+	
+	<Item>
+		 <Food>
+			<EatDirectable>0</EatDirectable>
+			<Nutrition>75</Nutrition>
+			<PracticeNutrition>20</PracticeNutrition>
+		 </Food>
+		 <BeMaterial>
+			<RateWhenBeMain>3</RateWhenBeMain>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<WorktoMakeRate>1</WorktoMakeRate>
+			<WorktoBuildRate>1</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	</ThingDef>
+	
+	
+</List></ThingDefs>
