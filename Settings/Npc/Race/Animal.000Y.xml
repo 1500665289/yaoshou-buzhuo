@@ -55,6 +55,26 @@
 					<Count>1</Count>
 					<Rate>0.25</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</Items>
 		</Drop>
 		<Drop MinJinJie="4" MaxJinJie="9">
@@ -210,6 +230,26 @@
 					<Count>1</Count>
 					<Rate>0.25</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</Items>
 		</Drop>
 		<Drop MinJinJie="4" MaxJinJie="9">

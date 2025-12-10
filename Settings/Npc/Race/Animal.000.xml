@@ -43,6 +43,11 @@
 			<Count>20</Count>
 			<Rate>1</Rate>
 		</li>
+                <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 	</SlaughterItems>
 	<BaseFive>
 		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
@@ -138,6 +143,26 @@
 					<Count>6</Count>
 					<Rate>0.5</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</ProductItems>
 		</li>
 	</Products> 
@@ -253,6 +278,26 @@
 					<Count>6</Count>
 					<Rate>0.5</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</ProductItems>
 		</li>
 	</Products> 
@@ -315,10 +360,25 @@
 			<Count>1</Count>
 			<Rate>1</Rate>
 		</li>
-		<li>
-			<ThingDef>Item_Shiwood</ThingDef>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
 			<Count>1</Count>
-			<Rate>1</Rate>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
 		</li>
 	</SlaughterItems>
 	<BaseFive>
@@ -372,6 +432,26 @@
 					<Count>2</Count>
 					<Rate>1</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</ProductItems>
 		</li>
 	</Products> 
@@ -473,6 +553,26 @@
 			<Count>28</Count>
 			<Rate>1</Rate>
 		</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 	</SlaughterItems>
 	<BaseFive>
 		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
@@ -557,6 +657,26 @@
 					<Count>6</Count>
 					<Rate>0.5</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</ProductItems>
 		</li>
 	</Products> 
@@ -671,6 +791,26 @@
 			<Count>6</Count>
 			<Rate>0.25</Rate>
 		</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 	</SlaughterItems>
 	<BaseFive>
 		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
@@ -743,6 +883,26 @@
 			<Count>12</Count>
 			<Rate>1</Rate>
 		</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 	</SlaughterItems>
 	<BaseFive>
 		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
@@ -813,6 +973,26 @@
 					<Count>3</Count>
 					<Rate>0.5</Rate>
 				</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
 			</ProductItems>
 		</li>
 	</Products> 
@@ -841,6 +1021,26 @@
 			<ThingDef>Item_TurtleMeat</ThingDef>
 			<Count>26</Count>
 			<Rate>1</Rate>
+		</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
 		</li>
 	</SlaughterItems>
 	<BaseFive>
@@ -909,6 +1109,26 @@
 		</li>
 		<li>
 		<ThingDef>Item_BearGallbladder</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+                                 <li>
+			<ThingDef>Item_MuYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		                 </li>
+                                 <li>
+			<ThingDef>Item_ShuiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.3</Rate>
+		</li>
+		<li>
+			<ThingDef>Item_JiYaoDan</ThingDef>
+			<Count>1</Count>
+			<Rate>0.5</Rate>
+		</li>
+			<li>
+			<ThingDef>Item_HuoYaoDan</ThingDef>
 			<Count>1</Count>
 			<Rate>0.5</Rate>
 		</li>
